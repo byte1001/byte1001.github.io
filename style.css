@@ -1,0 +1,63 @@
+* {
+  font-family: 'Saira', sans-serif;
+}
+
+/* BUTTONS */
+
+.b {
+  background-color: white;  
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.2s;
+  padding: 9px 16px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.active {
+  border: 4px solid skyblue;
+}
+.b:active {
+  transform: translateY(4px);
+}
+.b:hover {
+  background-color: gray;
+}
+.bar1 {
+  background-color: lightgreen;
+  padding: 3px;
+  position: aboslute;
+  top: 0px;
+  outline: 10px solid lightgreen;
+}
+.apps {
+  position: absolute;
+  right: 10px;
+  top: 11.4px;
+  bottom: auto;
+}
+
+/* CONTENT */
+
+.content {
+  position: absolute;
+  left: auto;
+  right: auto;
+  margin: 50px;
+}
+.contenth1 {
+  text-align: center;
+}
+.iam {
+  margin-bottom: 0;
+}
+.byte1001dot {
+  margin-top: 0;
+}
+a {
+  color: deepskyblue;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+}
