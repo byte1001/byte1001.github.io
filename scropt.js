@@ -1,5 +1,5 @@
 function buttonRedirect(url) {
-  window.location.href = `https://pokedb.byte1001.repl.co/${url}`;
+  window.location.href = `https://byte1001.github.io/${url}`;
 }
 function wopen(url) {
   var x = window.open(url,"_blank");
