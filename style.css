@@ -57,6 +57,13 @@
 a {
   color: deepskyblue;
 }
+.alc {
+  align-items: center;
+  text-align: center;
+}
+.bord {
+  border: 2px solid black;
+}
 footer {
   position: fixed;
   bottom: 0px;
