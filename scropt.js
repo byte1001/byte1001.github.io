@@ -1,5 +1,5 @@
 function buttonRedirect(url) {
-  if (url.toLowerCase().includes("apps")) {
+  if (url.toLowerCase().has("apps")) {
     p1 = prompt("p1")
     p2 = prompt("p2")
     window.open(`https://${p1}.netlify.app/${p2}`,"_blank")
