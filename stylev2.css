@@ -35,6 +35,9 @@ body {
   outline: 10px solid black;
 }
 
+.buttononthebar {
+  width: calc((100% / 3) - 0.5%);
+}
 
 /* 4AF626 */
 /* balanced: blue, blue-violet, and violet */
