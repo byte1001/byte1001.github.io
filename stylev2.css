@@ -1,0 +1,40 @@
+* {
+  color: white;
+}
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.bv2 {
+  background-color: black;  
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  padding: 9px 16px;
+  text-align: center;
+  font-size: 24px;
+}
+.bv2:active {
+  transform: translateY(4px);
+}
+.bv2:hover {
+  background-color: white;
+  color: black;
+}
+
+.bar1v2 {
+  background-color: white;
+  padding: 3px;
+  border-radius: 4px;
+  /* position: aboslute; */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  outline: 10px solid black;
+}
+
+
+/* 4AF626 */
+/* balanced: blue, blue-violet, and violet */
