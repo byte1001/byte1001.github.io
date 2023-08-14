@@ -1,0 +1,1 @@
+window.addEventListener('resize',function(){if(window.innerWidth/window.innerHeight<1){document.documentElement.style.backgroundSize='cover'}else{document.documentElement.style.backgroundSize='contain'}})
